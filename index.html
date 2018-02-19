@@ -26,48 +26,54 @@
     <div class="container-fluid"></div>
     <div class="container">
       <div class="row hexagonBOSS" id="sum_display">sum display</div>
-		<div class="row">hello</div>
+		
       <div class="row" id="crystals">
-		<div class="row">
+		<div class="container">
 			
-			<div class="col-md-2 col-sm-2 col-xs-2"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1"><div class="hexagonA" id="crystal_1" >???</div></div>
 			<div class="col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1"><div class="hexagonB" id="crystal_2" >???</div></div>
-			<div class="col-md-2 col-sm-2 col-xs-2">
+			<div class="col-md-1 col-sm-1 col-xs-1">
+				<div class="hexagonA" id="crystal_1" >???</div>
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-md-1 col-sm-1 col-xs-1">
+				<div class="hexagonB" id="crystal_2" >???</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4">
 				<div id="total_label">
-				<div id="row"><span class="underline">TOTAL COLLECTED</span></div>
-				<div id="click_sum">0</div>
+					<div id="row"><span class="info">TOTAL COLLECTED</span></div>
+					<div id="click_sum"><span class="overline">0</span></div>
+				</div>
 			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1">
+				<div class="hexagonC" id="crystal_3" >???</div>
 			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1"><div class="hexagonC" id="crystal_3" >???</div></div>
 			<div class="col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1"><div class="hexagonD" id="crystal_4">???</div></div>
-			<div class="col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-md-1 col-sm-1 col-xs-1">
+				<div class="hexagonD" id="crystal_4">???</div>
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			
 			
 		</div>
 		 	
       </div>
-		<div class="row">...</div>
-		<div class="col-md-4 col-sm-4 col-xs-4"></div>
-      
-		<div class="col-md-4 col-sm-4 col-xs-4"></div>
-		<div class="row">...</div>
+		
+		
 		<div class="row">
 			<div class="col-md-2 col-sm-2 col-xs-2"></div>
 			<div class="col-md-3 col-sm-3 col-xs-3" id="wins">
-				<div id="row"><span class="underline">WINS</span></div>
-				<div id="counterW">0</div>
+				<div id="row"><span class="info">WINS</span></div>
+				<div id="counterW"><span class="overline">0</span></div>
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2"></div>
 			<div class="col-md-3 col-sm-3 col-xs-3" id="losses">
-				<div class="row"><span class="underline">LOSSES</span></div>
-				<div id="counterL">0</div>
+				<div class="row"><span class="info">LOSSES</span></div>
+				<div id="counterL"><span class="overline">0</span></div>
 			</div>
 			<div class="col-md-2 col-sm-2 col-xs-2"></div>
 			<div class="row"></div>
 			<div class="col-md-2"></div>
-			<div id="rules" class="col-md-8">
+			<div id="rules" class="col-md-8 overline">
 				You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.
 			</div>
 			<div class="col-md-2"></div>

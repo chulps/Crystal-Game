@@ -1,3 +1,4 @@
+@import url("media_520.css");
 * {
   text-align:center;
   box-sizing:border-box;
@@ -22,48 +23,54 @@ body{
   background-color: #DCE8ED;
 	font-size: 60pt;
 	font-weight: bolder;
-	margin:0 auto 40px;
+	margin:0 auto 60px;
 	padding-top: 20px;
 }
 
 #crystal_1 {
 	font-size: 30pt;
 	font-weight: bolder;
-	padding: 20px;
+	padding: 20px 5px;
 	background-color: #E098BB;
-	margin-left: -15px;
+	position:absolute;
+	right: 0;
 	
 }
 
 #crystal_2 {
 	font-size: 30pt;
 	font-weight: bolder;
-	padding: 20px;
+	padding: 20px 5px;
 	background-color: #FE938C;
-	margin-left: -15px;
+	position:absolute;
+	right: 0;
 }
 
 #crystal_3 {
 	font-size: 30pt;
 	font-weight: bolder;
-	padding: 20px;
+	padding: 20px 5px;
 	background-color: #E6B89C;
-	margin-left: -15px;
+	position:absolute;
+	left: 0;
+	
 }
 
 #crystal_4 {
 	font-size: 30pt;
 	font-weight: bolder;
-	padding: 20px;
+	padding: 20px 5px;
 	background-color: #EAD2AC;
-	margin-left: -15px;
+	position:absolute;
+	left: 0;
 }
 
 #click_sum {
 	font-size: 60pt;
 	font-weight: bolder;
 	color: #DCE8ED;
-	margin-top: -9PX;
+	
+	
 	
 }
 
@@ -92,13 +99,12 @@ body{
 #rules {
 	padding: 20px;
 	color: #DCE8ED;
-	border-top: 1px solid #DCE8ED;
 	
 }
 
 .hexagonA {
   position: relative;
-  width: 100px; 
+  width: 80px; 
   height: 92.38px;
   background-color: #E098BB;
   margin: 46.19px auto;
@@ -110,8 +116,8 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
 }
 
 .hexagonA:before {
@@ -134,7 +140,7 @@ body{
 
 .hexagonB {
   position: relative;
-  width: 100px; 
+  width: 80px; 
   height: 92.38px;
   background-color: #FE938C;
   margin: 46.19px auto;
@@ -146,8 +152,8 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
 }
 
 .hexagonB:before {
@@ -169,7 +175,7 @@ body{
 
 .hexagonC {
   position: relative;
-  width: 100px; 
+  width: 80px; 
   height: 92.38px;
   background-color: #E6B89C;
   margin: 46.19px auto;
@@ -181,8 +187,8 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
 }
 
 .hexagonC:before {
@@ -205,7 +211,7 @@ body{
 
 .hexagonD {
   position: relative;
-  width: 100px; 
+  width: 80px; 
   height: 92.38px;
   background-color: #EAD2AC;
   margin: 46.19px auto;
@@ -217,8 +223,8 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
 }
 
 .hexagonD:before {
@@ -241,7 +247,7 @@ body{
 
 .hexagonBOSS {
   position: relative;
-  width: 260px; 
+  width: 220px; 
   height: 150.11px;
   background-color: #b4e4f7;
   margin: 75.06px 0;
@@ -252,8 +258,8 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  border-left: 130px solid transparent;
-  border-right: 130px solid transparent;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
 }
 
 .hexagonBOSS:before {
@@ -274,8 +280,13 @@ body{
 	margin-top: 40PX;
 }
 
-.underline {
-	border-bottom: solid 1px #DCE8ED;
+.info {
 	color: #DCE8ED;
 	padding: 5px;
 }
+
+.overline {
+	border-top: 2px solid #DCE8ED;
+	color: #DCE8ED;
+}
+
