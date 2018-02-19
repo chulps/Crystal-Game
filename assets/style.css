@@ -63,6 +63,8 @@ body{
 	font-size: 60pt;
 	font-weight: bolder;
 	color: #DCE8ED;
+	margin-top: -9PX;
+	
 }
 
 #wins{
@@ -269,4 +271,5 @@ body{
 
 #total_label {
 	color: #5B1617;
+	margin-top: 40PX;
 }
