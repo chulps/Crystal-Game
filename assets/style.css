@@ -61,7 +61,7 @@ body{
 	font-size: 30pt;
 	font-weight: bolder;
 	padding: 20px 5px;
-	background-color: #EAD2AC;
+	background-color: EDEFAC;
 	position:absolute;
 	left: 0;
 }
@@ -214,7 +214,7 @@ body{
   position: relative;
   width: 80px; 
   height: 92.38px;
-  background-color: #EAD2AC;
+  background-color: #EDEFAC;
   margin: 46.19px auto;
 	
 }
@@ -231,14 +231,14 @@ body{
 .hexagonD:before {
   bottom: 100%;
 	left: 0;
-  border-bottom: 46.19px solid #EAD2AC;
+  border-bottom: 46.19px solid #EDEFAC;
 }
 
 .hexagonD:after {
   top: 100%;
 	right: 0;
   width: 0;
-  border-top: 46.19px solid #EAD2AC;
+  border-top: 46.19px solid #EDEFAC;
 }
 
 
@@ -284,6 +284,7 @@ body{
 .info {
 	color: #DCE8ED;
 	padding: 5px;
+	text-align: center;
 }
 
 .overline {
@@ -291,3 +292,18 @@ body{
 	color: #DCE8ED;
 }
 
+#crystal_1:hover {
+    color: #DCE8ED;
+}
+
+#crystal_2:hover {
+    color: #DCE8ED;
+}
+
+#crystal_3:hover {
+    color: #DCE8ED;
+}
+
+#crystal_4:hover {
+    color: #DCE8ED;
+}
