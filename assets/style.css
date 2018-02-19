@@ -53,6 +53,7 @@ body{
 	background-color: #E6B89C;
 	position:absolute;
 	left: 0;
+	z-index: 1;
 	
 }
 
