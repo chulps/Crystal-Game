@@ -307,3 +307,6 @@ body{
 #crystal_4:hover {
     color: #DCE8ED;
 }
+.img-responsive {
+	margin: auto;
+}
