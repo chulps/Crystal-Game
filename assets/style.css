@@ -1,0 +1,76 @@
+* {
+  text-align:center;
+  box-sizing:border-box;
+	color: #4281A4;
+}
+
+h1{
+	color: #4281A4;
+}
+
+body{
+	background-color: #4281A4;
+}
+
+#sum_display{
+  padding: 20px;
+  background-color: #DCE8ED;
+}
+
+#crystal_1 {
+  padding: 20px;
+  background-color: #E098BB;
+	
+}
+
+#crystal_2 {
+  padding: 20px;
+  background-color: #FE938C;
+}
+
+#crystal_3 {
+  padding: 20px;
+  background-color: #E6B89C;
+}
+
+#crystal_4 {
+  padding: 20px;
+  background-color: #EAD2AC;
+}
+
+#click_sum {
+  padding: 20px;
+  background-color: #9CAFB7;
+}
+
+#wins{
+	  padding: 20px;
+
+  background-color: antiquewhite;
+}
+
+#losses{
+	  padding: 20px;
+
+	background-color: bisque;
+}
+
+#counterL{
+  	font-size:40pt;
+	font-weight: bold;
+}
+
+#counterW{
+  	font-size:40pt;
+	font-weight: bold;
+}
+
+#rules {
+	padding: 20px;
+	text-align: left;
+	color: white;
+	
+}
+
+
+
