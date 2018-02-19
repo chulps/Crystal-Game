@@ -4,8 +4,13 @@
 	color: #4281A4;
 }
 
-h1{
-	color: #4281A4;
+.jumbotron{
+	color: #DCE8ED;
+	background-color: transparent;
+}
+p{
+	color: #DCE8ED;
+	margin: 0;
 }
 
 body{
@@ -13,64 +18,254 @@ body{
 }
 
 #sum_display{
-  padding: 20px;
   background-color: #DCE8ED;
+	font-size: 60pt;
+	font-weight: bolder;
+	margin:0 auto 40px;
+	padding-top: 20px;
 }
 
 #crystal_1 {
-  padding: 20px;
-  background-color: #E098BB;
+	font-size: 30pt;
+	font-weight: bolder;
+	padding: 20px;
+	background-color: #E098BB;
+	margin-left: -15px;
 	
 }
 
 #crystal_2 {
-  padding: 20px;
-  background-color: #FE938C;
+	font-size: 30pt;
+	font-weight: bolder;
+	padding: 20px;
+	background-color: #FE938C;
+	margin-left: -15px;
 }
 
 #crystal_3 {
-  padding: 20px;
-  background-color: #E6B89C;
+	font-size: 30pt;
+	font-weight: bolder;
+	padding: 20px;
+	background-color: #E6B89C;
+	margin-left: -15px;
 }
 
 #crystal_4 {
-  padding: 20px;
-  background-color: #EAD2AC;
+	font-size: 30pt;
+	font-weight: bolder;
+	padding: 20px;
+	background-color: #EAD2AC;
+	margin-left: -15px;
 }
 
 #click_sum {
-  padding: 20px;
-  background-color: #9CAFB7;
+	font-size: 60pt;
+	font-weight: bolder;
+	color: #DCE8ED;
 }
 
 #wins{
-	  padding: 20px;
-
-  background-color: antiquewhite;
+	padding: 20px;
+	
 }
 
 #losses{
 	  padding: 20px;
-
-	background-color: bisque;
 }
 
 #counterL{
   	font-size:40pt;
 	font-weight: bold;
+	color: #DCE8ED;
 }
 
 #counterW{
   	font-size:40pt;
 	font-weight: bold;
+	color: #DCE8ED;
+	
 }
 
 #rules {
 	padding: 20px;
 	text-align: left;
-	color: white;
+	color: #DCE8ED;
 	
+}
+
+.hexagonA {
+  position: relative;
+  width: 100px; 
+  height: 92.38px;
+  background-color: #E098BB;
+  margin: 46.19px auto;
+	
+}
+
+.hexagonA:before,
+.hexagonA:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagonA:before {
+  bottom: 100%;
+	left: 0;
+  border-bottom: 46.19px solid #E098BB;
+}
+
+.hexagonA:after {
+  top: 100%;
+	right: 0;
+  width: 0;
+  border-top: 46.19px solid #E098BB;
 }
 
 
 
+
+
+
+.hexagonB {
+  position: relative;
+  width: 100px; 
+  height: 92.38px;
+  background-color: #FE938C;
+  margin: 46.19px auto;
+	
+}
+
+.hexagonB:before,
+.hexagonB:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagonB:before {
+  bottom: 100%;
+	left: 0;
+  border-bottom: 46.19px solid #FE938C;
+}
+
+.hexagonB:after {
+  top: 100%;
+	right: 0;
+  width: 0;
+  border-top: 46.19px solid #FE938C;
+}
+
+
+
+
+
+.hexagonC {
+  position: relative;
+  width: 100px; 
+  height: 92.38px;
+  background-color: #E6B89C;
+  margin: 46.19px auto;
+	
+}
+
+.hexagonC:before,
+.hexagonC:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagonC:before {
+  bottom: 100%;
+	left: 0;
+  border-bottom: 46.19px solid #E6B89C;
+}
+
+.hexagonC:after {
+  top: 100%;
+	right: 0;
+  width: 0;
+  border-top: 46.19px solid #E6B89C;
+}
+
+
+
+
+
+
+.hexagonD {
+  position: relative;
+  width: 100px; 
+  height: 92.38px;
+  background-color: #EAD2AC;
+  margin: 46.19px auto;
+	
+}
+
+.hexagonD:before,
+.hexagonD:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagonD:before {
+  bottom: 100%;
+	left: 0;
+  border-bottom: 46.19px solid #EAD2AC;
+}
+
+.hexagonD:after {
+  top: 100%;
+	right: 0;
+  width: 0;
+  border-top: 46.19px solid #EAD2AC;
+}
+
+
+
+
+
+
+.hexagonBOSS {
+  position: relative;
+  width: 260px; 
+  height: 150.11px;
+  background-color: #b4e4f7;
+  margin: 75.06px 0;
+}
+
+.hexagonBOSS:before,
+.hexagonBOSS:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+}
+
+.hexagonBOSS:before {
+  bottom: 100%;
+  border-bottom: 75.06px solid #DCE8ED;
+}
+
+.hexagonBOSS:after {
+  top: 100%;
+  width: 0;
+  border-top: 75.06px solid #DCE8ED;
+}
+
+
+
+#total_label {
+	color: #5B1617;
+}
