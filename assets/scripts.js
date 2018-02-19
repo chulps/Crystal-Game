@@ -7,12 +7,8 @@ var random_crystal_4 = Math.floor(Math.random() * 12) + 1;
 var click_sum = 0; 
 var wins = 0;
 var losses = 0;
-document.getElementById("sum_display").innerHTML = random_sum;
-document.getElementById("crystal_1").innerHTML = random_crystal_1;
-document.getElementById("crystal_2").innerHTML = random_crystal_2;
-document.getElementById("crystal_3").innerHTML = random_crystal_3;
-document.getElementById("crystal_4").innerHTML = random_crystal_4;
-document.getElementById("click_sum").innerHTML = click_sum;
+
+
 
   
   $("#crystal_1").click(function click1() {
