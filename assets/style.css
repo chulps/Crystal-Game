@@ -310,3 +310,8 @@ body{
 .img-responsive {
 	margin: 20PX auto;
 }
+
+.centered {
+	margin: auto;
+	text-align: center;
+}
