@@ -61,7 +61,7 @@ body{
 	font-size: 30pt;
 	font-weight: bolder;
 	padding: 20px 5px;
-	background-color: EDEFAC;
+	background-color: #DAD76F;
 	position:absolute;
 	left: 0;
 }
@@ -231,14 +231,14 @@ body{
 .hexagonD:before {
   bottom: 100%;
 	left: 0;
-  border-bottom: 46.19px solid #EDEFAC;
+  border-bottom: 46.19px solid #DAD76F;
 }
 
 .hexagonD:after {
   top: 100%;
 	right: 0;
   width: 0;
-  border-top: 46.19px solid #EDEFAC;
+  border-top: 46.19px solid #DAD76F;
 }
 
 
