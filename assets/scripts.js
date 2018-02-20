@@ -9,17 +9,17 @@ var wins = 0;
 var losses = 0;
 
 document.getElementById("sum_display").innerHTML = random_sum;
-document.getElementById("crystal_1").innerHTML = random_crystal_1;
-document.getElementById("crystal_2").innerHTML = random_crystal_2;
-document.getElementById("crystal_3").innerHTML = random_crystal_3;
-document.getElementById("crystal_4").innerHTML = random_crystal_4;
+document.getElementById("crystal_1").innerHTML = "?";
+document.getElementById("crystal_2").innerHTML = "?";
+document.getElementById("crystal_3").innerHTML = "?";
+document.getElementById("crystal_4").innerHTML = "?";
 document.getElementById("click_sum").innerHTML = click_sum;
 
   
   $("#crystal_1").click(function click1() {
   click_sum = click_sum + random_crystal_1;
   document.getElementById("click_sum").innerHTML = click_sum;
-  
+  document.getElementById("crystal_1").innerHTML = random_crystal_1;
   if (click_sum > random_sum){
   	 	
      	random_sum = Math.floor(Math.random() * 100) + 20;
@@ -63,6 +63,7 @@ document.getElementById("click_sum").innerHTML = click_sum;
 	$("#crystal_2").click(function click2() {
 	click_sum = click_sum + random_crystal_2;
   document.getElementById("click_sum").innerHTML = click_sum;
+		document.getElementById("crystal_2").innerHTML = random_crystal_2;
     if (click_sum > random_sum){
   	 	
      	random_sum = Math.floor(Math.random() * 100) + 20;
@@ -106,6 +107,7 @@ document.getElementById("click_sum").innerHTML = click_sum;
 	$("#crystal_3").click(function click3() {
 	click_sum = click_sum + random_crystal_3;
   document.getElementById("click_sum").innerHTML = click_sum;
+		document.getElementById("crystal_3").innerHTML = random_crystal_3;
     if (click_sum > random_sum){
   	 	
      	random_sum = Math.floor(Math.random() * 100) + 20;
@@ -148,6 +150,7 @@ document.getElementById("click_sum").innerHTML = click_sum;
 	$("#crystal_4").click(function click4() {
 	click_sum = click_sum + random_crystal_4;
   document.getElementById("click_sum").innerHTML = click_sum;
+		document.getElementById("crystal_4").innerHTML = random_crystal_4;
     if (click_sum > random_sum){
   	 	
      	random_sum = Math.floor(Math.random() * 100) + 20;
