@@ -34,7 +34,7 @@ body{
 	background-color: #E098BB;
 	position:absolute;
 	right: 0;
-	
+	cursor: pointer;
 }
 
 #crystal_2 {
@@ -44,6 +44,7 @@ body{
 	background-color: #FE938C;
 	position:absolute;
 	right: 0;
+	cursor: pointer;
 }
 
 #crystal_3 {
@@ -54,7 +55,7 @@ body{
 	position:absolute;
 	left: 0;
 	z-index: 1;
-	
+	cursor: pointer;
 }
 
 #crystal_4 {
@@ -64,6 +65,7 @@ body{
 	background-color: #DAD76F;
 	position:absolute;
 	left: 0;
+	cursor: pointer;
 }
 
 #click_sum {
